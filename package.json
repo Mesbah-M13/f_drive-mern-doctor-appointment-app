@@ -13,7 +13,6 @@
     "start": "node server.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
-  
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -27,5 +26,13 @@
     "mongoose": "^6.7.2",
     "nodemon": "^2.0.20"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mesbah-M13/f_drive-mern-doctor-appointment-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mesbah-M13/f_drive-mern-doctor-appointment-app/issues"
+  },
+  "homepage": "https://github.com/Mesbah-M13/f_drive-mern-doctor-appointment-app#readme",
   "description": ""
 }
